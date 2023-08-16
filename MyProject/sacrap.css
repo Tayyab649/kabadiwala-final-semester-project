@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    border-bottom:  6px solid lightblue; 
+    border-radius: 10px; 
+}
+.lablebar{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin: 0 100px ; 
+    padding: 10px 0;
+}
+.lablebarA{
+    display: flex;
+     gap: 50px;
+      font-size: 20px;
+       text-decoration: none;
+}
+.container{
+    margin: 100px; 
+    background-color: lightskyblue;
+}
+h1{
+    display: flex;
+     justify-content: center;
+}
+/*RecycleAble*/
+.recycleable{
+    display: flex;
+     margin: 130px;
+      gap: 100px;
+       flex-wrap: wrap;
+        display:flexbox;
+}
+.recyclablesIcon{
+    border: 3px solid white;
+    background-color: #ffffff;
+   padding: 10px 50px ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 6px 6px 15px 1px rgba(17, 17, 18, 0.507);
+}
+.recyclablesIcon i{
+    color: #3b7128;
+}
+
+/*Large Appliances*/
+.LAppliances{
+    display: flex;
+    margin: 130px;
+     gap: 100px;
+      flex-wrap: wrap;
+       display:flexbox;
+}
+.LAppliancesIcon{
+    border: 3px solid white;
+    background-color: #ffffff;
+   padding: 10px 50px ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 6px 6px 15px 1px rgba(17, 17, 18, 0.507);
+}
+.LAppliancesIcon i{
+    color: #3b7128;
+}
+/* Small Appliances*/
+
+/*Large Appliances*/
+
+.MandComp{
+    display: flex;
+    margin: 130px;
+     gap: 100px;
+      flex-wrap: wrap;
+       display:flexbox;
+}
+.MandCompIcon{
+    border: 3px solid white;
+    background-color: #ffffff;
+   padding: 10px 50px ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 6px 6px 15px 1px rgba(17, 17, 18, 0.507);
+}
+
+.MandCompIcon i{
+    color: #3b7128;
+}
+.others{
+    display: flex;
+    margin: 130px;
+     gap: 100px;
+      flex-wrap: wrap;
+       display:flexbox;
+}
+.othersIcon{
+    border: 3px solid white;
+    background-color: #ffffff;
+   padding: 10px 50px ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 6px 6px 15px 1px rgba(17, 17, 18, 0.507);
+}
+.othersIcon i{
+    color: #3b7128;
+}
